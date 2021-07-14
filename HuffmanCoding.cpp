@@ -136,8 +136,7 @@ int main()
 {
 
     string text;
-    //cin>>text;
-    text = "Huffman coding is a data compression algorithm.";
+    cin>>text;
 	buildHuffmanTree(text);
 
 	return 0;
