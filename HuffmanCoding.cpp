@@ -136,7 +136,7 @@ int main()
 {
 
     string text;
-    cin>>text;
+     getline(cin, text, '\n');
 	buildHuffmanTree(text);
 
 	return 0;
